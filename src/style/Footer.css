@@ -1,0 +1,73 @@
+.jumbotron{
+    height: 100vh;
+    width: 99vw;
+    margin-left: -78px;
+}
+
+.garistepi{
+    width: 114%;
+    margin-left: -80px;
+}
+
+.footer{
+    background-color: #051622;;
+    height: 300px;
+    width: 79.5rem;
+    position: absolute;
+    display: inline;
+    margin-top: 2px;
+    margin-left: -79px;
+}
+
+.avatar{
+    background-image: linear-gradient( 135deg, #CE9FFC 10%, #7367F0 100%);
+    width: 250px;
+    height: 20px;
+    float: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: -18px;
+    margin-left: -23px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.textmetode{
+    float: left;
+    margin-left: -60px;
+    margin-top: -50px;
+    font-size: 45px;
+    font-family: 'DM Serif Text', serif;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    text-shadow: 1px 2px 3px #1BA096;
+}
+
+
+@media Screen and (max-width: 600px) {
+    .jumbotron {
+        margin-left: 1px;
+        width: 91vw;
+    }
+    .garistepi{
+        margin-left: 1px;
+        width: 100%;
+    }
+    .textmetode{
+        font-size: 30px;
+        margin-left: -12px;
+        margin-top: -24px;
+    }
+    .avatar{
+        margin-left: 10px;
+        margin-top: -2px;
+        width: 170px;
+    }
+}
